@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Browser",
+        "description": "",
+        "id": "browser;browser",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13848573390,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the seek site",
+            "match": {
+              "location": "f1StepDef.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 226696475,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on login",
+            "match": {
+              "location": "f1StepDef.user_clicks_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5043548464,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Inputs \"deepti.marathe@gmail.com\" and \"Rohan007\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deepti.marathe@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "Rohan007",
+                  "offset": 39
+                }
+              ],
+              "location": "f1StepDef.user_closes_the_browser(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225369657,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "f1StepDef.user_login_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Browser",
+    "description": "",
+    "id": "browser",
+    "keyword": "Feature",
+    "uri": "src/main/resources/f1.feature"
+  }
+]
